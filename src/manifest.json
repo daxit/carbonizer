@@ -1,0 +1,37 @@
+{
+  "name": "Carbonizer",
+  "author": "Daxit Agarwal, Jennifer Jennings",
+  "version": "1.1",
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Carbonize all pages",
+      "identifier": "all",
+      "script": "./carbonizer.js",
+      "handler": "carbonizeAllPages"
+    },
+    {
+      "name": "Carbonize current page",
+      "identifier": "page",
+      "script": "./carbonizer.js",
+      "handler": "carbonizePage"
+    },
+    {
+      "name": "Carbonize selected artboard",
+      "identifier": "artboard",
+      "script": "./carbonizer.js",
+      "handler": "carbonizeArtboard"
+    },
+    {
+      "name": "Carbonize selected layer",
+      "identifier": "layer",
+      "script": "./carbonizer.js",
+      "handler": "carbonizeLayer"
+    }
+  ],
+  "menu": {
+    "title": "Carbonizer",
+    "items": ["all", "page", "artboard", "layer"]
+  }
+}
