@@ -2,8 +2,10 @@
 
 ## Installation
 
-- [Download](../../releases/download/v1.1/carbonizer.sketchplugin.zip) the latest release of the plugin
-- Un-zip
-- Double-click on carbonizer.sketchplugin
+1. [Download](https://github.com/agarwaldax/Carbonizer/releases/latest) the latest release of the plugin
+2. Un-zip
+3. Double click on `carbonizer.sketchplugin` to install
 
-## Please see [Wiki page](https://github.ibm.com/Daxit-Agarwal/Carbonizer/wiki) for plugin usage and file prep instructions
+## Usage
+
+Please see [Wiki page](https://github.ibm.com/Daxit-Agarwal/Carbonizer/wiki) for plugin usage and file prep instructions
