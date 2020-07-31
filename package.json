@@ -1,6 +1,6 @@
 {
   "name": "carbonizer",
-  "description": "",
+  "description": "Convert carbon layers in prep for Sketch Measure export",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
@@ -23,5 +23,9 @@
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "Daxit Agarwal <agarwaldax@users.noreply.github.com>"
+  "author": "Daxit Agarwal <agarwaldax@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agarwaldax/carbonizer"
+  }
 }
